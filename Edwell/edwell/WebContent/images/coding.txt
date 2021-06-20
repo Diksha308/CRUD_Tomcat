@@ -1,0 +1,14 @@
+/*<div id="div75" name="div" style="top:139%;left:10%;height:45%;width:58%;;position: absolute;border-radius: 50px;padding-left: 3%;background-image:url('/edwell/images/ha.jpg');">
+<h1 style="font-family: Harrington;font-size: 55px;color: white;text-shadow: fuchsia;text-decoration: underline;text-align: justify;">Regional Office</h1>
+<h2 style="font-family: Andalus;font-size: 35px;color:white;">C-987,Lal Bagh,<br>
+ Hazratganj,<br>
+Lucknow,Uttar Pradesh
+</h2>
+*/
+<div id="div76" style="left: 65%;top: 5%;height: 30%;width: 40%;position: absolute;">
+<h3 style="font-family: Andalus;font-size: 35px;color: white;">PHONE NUMBERS</h3>
+<ul style="font-family: Andalus;font-size: 35px;color:white;">
+<li>0522-786954</li>
+<li>0522-9876543</li>
+</ul>
+</div>
