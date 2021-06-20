@@ -1,0 +1,50 @@
+<!--  <%@page import="java.util.ArrayList"%>
+<%@page import="com.beans.*"%>
+<%@page import="com.database.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>DESIGNERS</title>
+<link rel="stylesheet" type="text/css" href="/edwell/css/style.css">
+<script type="text/javascript">
+var imgarr= new Array(5);
+imgarr[0]="/edwell/images/admin1.jpg";
+imgarr[1]="/edwell/images/admin8.jpg";
+imgarr[2]="/edwell/images/admin6.jpg";
+imgarr[3]="/edwell/images/admin9.jpg";
+imgarr[4]="/edwell/images/admin7.jpg";
+
+cnt=0;
+
+function changePic(){
+	
+document.getElementById("img1").src=imgarr[cnt];
+cnt++;
+if (cnt>4)
+	{
+	cnt=0;
+	}
+setTimeout("changePic()",3000);
+}
+
+</script>
+</head>
+<body background="/edwell/images/img2.jpg" onload="changePic(this.value)">
+
+<div id="dchngpic" name="div" style="top:30%;left:5%;height:30%;width:75%;position: absolute;">
+<img id="img1" style="height:190px;width: 1200px;;border-radius:20px;position: absolute;">
+</div>
+
+
+<div id="div75" name="div" style="top:2%;left:87%;height:30%;width:13%;position: absolute;">
+<img src="/edwell/images/admin.png" style="height:70px;width: 70px;">
+</div>
+
+
+</body>
+</html>

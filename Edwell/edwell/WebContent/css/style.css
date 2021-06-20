@@ -1,0 +1,43 @@
+a:LINK {
+	color: black;
+	
+}
+a:HOVER {
+	color:red;
+	background-color: fuschia;
+}
+a:VISITED {
+	color: purple;
+	}
+a:ACTIVE {
+	color: pink;
+}	
+a {
+	text-decoration:none;
+	font-family: times new roman;
+	font-style: normal;
+	font-weight: 200;
+}
+marquee img
+ {
+ border:none;
+  padding:0; 
+  margin:0;
+ }
+#ul1
+ {
+ list-style-type: none;
+ }
+ #grad1
+ {
+    border: 2px solid #a1a1a1;
+    top:105%;
+    left:55%;
+    height:20%;
+    width:42%;
+    border-radius: 50px;
+    position: absolute;
+   
+    background-image:url("edwell/images/ks.jpg");
+    padding-left: 2%;
+}
